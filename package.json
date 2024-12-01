@@ -1,0 +1,19 @@
+{
+  "name": "my-payment-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",      // Menjalankan server dev
+    "build": "next build",  // Membuat build production
+    "start": "next start"   // Menjalankan build production
+  },
+  "dependencies": {
+    "next": "latest",       // Framework Next.js
+    "react": "latest",      // React untuk UI
+    "react-dom": "latest"   // Library rendering React
+  },
+  "devDependencies": {
+    "eslint": "latest",      // Untuk linting (opsional)
+    "eslint-config-next": "latest" // Linting untuk Next.js (opsional)
+  }
+}
